@@ -22,7 +22,7 @@ def callback():
     signature = request.headers['X-Line-Signature']
     try:
         handler.handle(body,signature)
-    except InavidSignatureError:
+    except InvalidSignatureError:
         abort(400)
     return 'ok'
 
