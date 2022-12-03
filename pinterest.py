@@ -132,7 +132,7 @@ def pin_search(keyword,num):
     chrome_options.add_argument("--disable-dev-shm-usage")
     chrome_options.add_argument("--no-sandbox")
    # driver = webdriver.Chrome(executable_path=os.environ.get("CHROMEDRIVER_PATH"), chrome_options=chrome_options)
-    driver = webdriver.Chrome('.\chromedriver')
+    driver = webdriver.Chrome('.\chromedriver', chrome_options=chrome_options)
 
     driver.get(URL+keyword)
 
