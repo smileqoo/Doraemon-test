@@ -13,5 +13,5 @@ requests==2.27.1; python_version >= "2.7" and python_full_version < "3.0.0" or p
 urllib3==1.26.2; python_version >= "2.7" and python_full_version < "3.0.0" or python_full_version >= "3.5.0" and python_version < "4"
 werkzeug==1.0.1; python_version >= "2.7" and python_full_version < "3.0.0" or python_full_version >= "3.5.0"
 beautifulsoup4==4.9.1
-selenium==4.1.0 
+selenium==4.7.2 
 lxml==4.7.1
